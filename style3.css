@@ -1,0 +1,127 @@
+body{
+    min-height: 650px;
+    background: url('https://tm.ibxk.com.br/2021/05/07/07140720316182.jpg') top / 100% 100% no-repeat;
+}   
+.container{
+    text-align: center;
+    font-family: minhafonte;
+    color: rgb(252, 252, 252);
+}
+.page-title{
+    background: linear-gradient(180deg,#0e2eac 30%, rgb(172, 28, 28));
+    width: 210px;
+    margin-left: 43%;
+}
+
+.page-subtitle{
+    text-align: center;
+    width: 500px;
+    margin-left: 32%;
+    color: white;
+}
+
+.page-subtitle2{
+    text-align: center;
+    width: 520px;
+    margin-left: 2%;
+    color: white;
+    background: linear-gradient(180deg,#0e2eac 30%, rgb(172, 28, 28));
+}
+
+.DeckCompleto{
+    content: "";
+    display: table;
+}
+
+.row2{
+    content: "";
+    width: 800px;
+}
+
+.coluna{
+    float: left;
+    margin-left: 27px;
+    width: 22%;
+    border: solid 1px black;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+h3{
+    margin-left: 60px;
+    color: rgb(255, 255, 255);
+    border: solid 1px black;
+    border-radius: 15px;
+    width: 145px;
+    text-align: center;
+    background :linear-gradient(180deg,#0e2eac 30%, red);
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+    margin-left: 5px;
+    color: rgb(8, 8, 8);
+    border: solid 1px black;
+    border-radius: 15px;
+    width: 242px;
+
+}
+
+.boxInfo{
+    border: solid 0.5px rgb(43, 35, 35);
+    border-radius: 8px;
+    background: linear-gradient(90deg,#eb5718 65%, #072083);
+}
+
+.zoom{
+    overflow: hidden;
+}
+
+.zoom img{
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.zoom:hover img {
+    -moz-transform: scale(1.08);
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+}
+
+#subti{
+    font-family: minhafonte;
+    margin-top: 30px;
+}
+
+
+#botIniciar{
+    font-family: minhafonte;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(90deg,#eb5718 35%, #072083);
+    border-radius: 15px;
+    height: 70px;
+    width: 130px;
+    margin-top: 60px;
+    margin-left: 0px;
+}
+
+.logo-imdv{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+@font-face{
+    font-family: 'minhafonte';
+    src: url(assests/fonts/Quicksand-VariableFont_wght.ttf);
+}
+
+@media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+}

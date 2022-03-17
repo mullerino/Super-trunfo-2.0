@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Imersão Dev - aula 07</title>
+            <link rel="stylesheet" href="style2.css" media="screen">
+            <script src="script.js" defer></script>
+        </head>
+
+        <body>
+            <div class="container">
+                <h2 id="subti">Para inciar uma partida clique em Sortear</h2>
+                <button type="reset" id="botSort" onclick="Sortear()">Sortear</button>
+                <form>
+                    <div class="final">
+                        <div id="subAtt"></div>
+                        <div id="botsR"></div>
+                        <div class="wpp">
+                            <div>
+                                <div id="carta-jog">
+                                    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent-ajustado.png"
+                                    style=" width: inherit; height: inherit; position: absolute;">
+                                </div>
+                            </div>
+                            <div>
+                                <div id="carta-maq" class="carta">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="placar">
+                            <label id="Tplacar">Placar</label>
+                            <label id="pV">Você</label>
+                            <label id="pM">Máquina</label>
+                            <div id="Pjog">0</div>
+                            <div id="Pmaq">0</div>
+                        </div>
+                        <div id="result"></div>
+                        <button type="button" id="botJogar" onclick="Jogar()" disabled="true">Jogar</button>
+                    </div>
+                </form>
+            </div>
+        </body>
+    </html>
