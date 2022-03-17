@@ -38,7 +38,7 @@ var cartaMaqui = { nome: "", img: "", atributos: {
 var cartas = [carta0,carta1,carta2,carta3];
 var vitJog = 0;
 var vitMaq = 0;
-var teste=0;
+
 
 function Iniciar(){
     window.location.href="index1.html";

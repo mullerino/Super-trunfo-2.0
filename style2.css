@@ -121,7 +121,7 @@ body{
     border-radius: 15px;
     height: 70px;
     width: 150px;
-    left: 45%;
+    left: 44.6%;
     top: 80%;
     padding: .8rem 1.5rem;
     
@@ -140,7 +140,7 @@ h2{
 .placar{
     position: absolute;
     top: 45%;
-    left: 44%;
+    left: 43%;
     border: solid 1px black;
     height: 110px;
     width: 178px;
