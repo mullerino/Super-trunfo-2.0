@@ -29,11 +29,20 @@
                             </div>
                         </div>
                         <div class="placar">
-                            <label id="Tplacar">Placar</label>
-                            <label id="pV">Você</label>
-                            <label id="pM">Máquina</label>
-                            <div id="Pjog">0</div>
-                            <div id="Pmaq">0</div>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th id="pV">Você</th>
+                                        <th id="pM">Máquina</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><div id="Pjog">0</div></td>
+                                        <td><div id="Pmaq">0</div></td>  
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                         <div id="result"></div>
                         <button type="button" id="botJogar" onclick="Jogar()" disabled="true">Jogar</button>

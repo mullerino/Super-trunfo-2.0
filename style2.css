@@ -137,64 +137,21 @@ h2{
     margin-left: 26%;
 }
 
-.placar{
+table{
     position: absolute;
-    top: 45%;
-    left: 43%;
-    border: solid 1px black;
-    height: 110px;
-    width: 178px;
-    background: linear-gradient(#eb5718 25%, #072083);
+    top: 43%;
+    left: 44.3%;
+    border: solid 2px rgb(255, 255, 255);
+    border-collapse: collapse;
 }
 
-#Tplacar{
-    font-size: 28px;
-    position: absolute;
-    top: 8%; 
-    left: 33%;   
+th,tr,td {
+    font-family: minhafonte;
+    color: azure;
+    font-size: 22px;
+    border: solid 2px rgb(0, 0, 0);
+    background: rgb(204, 83, 35);
 }
-
-#pV{
-    font-size: 25px;
-    position: absolute;
-    left:0%;
-    top: 42.7%;
-    border: solid 1px black;
-    width: 84px;
-    height: 27px;
-}
-
-#pM{
-    font-size: 25px;
-    position: absolute;
-    top: 42.5%;
-    right: 0.3%;
-    border: solid 1px black;
-    width: 88px;
-}
-
-#Pjog{
-    font-size: 23px;
-    color: white;
-    position: absolute;
-    top: 70%;
-    left: 0.5%;
-    border: solid 1px black;
-    height: 31px;
-    width: 84px;
-}
-
-#Pmaq{
-    font-size: 23px;
-    color: white;
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    border: solid 1px black;
-    height: 31px;
-    width: 85px;
-}
-
 
 @font-face{
     font-family: 'minhafonte';
